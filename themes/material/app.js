@@ -1,7 +1,7 @@
 // 在head 中 加载 必要静态
-document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mdui@0.4.3/dist/css/mdui.min.css">');
+document.write('<link rel="stylesheet" href="//unpkg.com/mdui@0.4.3/dist/css/mdui.min.css">');
 // markdown支持
-document.write('<script src="//cdn.jsdelivr.net/npm/markdown-it@10.0.0/dist/markdown-it.min.js"></script>');
+document.write('<script src="//unpkg.com/markdown-it@10.0.0/dist/markdown-it.min.js"></script>');
 document.write(`<style>.mdui-appbar .mdui-toolbar{height:56px;font-size:1pc}
 .mdui-toolbar>*{padding:0 6px;margin:0 2px}
 .mdui-toolbar>i{opacity:.5}.mdui-toolbar>.mdui-typo-headline{padding:0 1pc 0 0}
